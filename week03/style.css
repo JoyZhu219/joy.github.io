@@ -374,7 +374,7 @@ h2 {
     height: 100%;
 }*/
 
-.nude .swiper-container .swiper-slide {
+.nude .container .slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -399,18 +399,18 @@ h2 {
 /*    justify-content: space-between;*/
 /*}*/
 
-.nude .swiper-slide {
+.nude .slide {
     position: relative;
 }
 
-.nude .swiper-slide .shadow p{
+.nude .slide .shadow p{
     text-align: center;
     color: #fff;
     font-size: 14px;
     line-height: 20px;
 }
 
-.nude .swiper-slide .shadow {
+.nude .slide .shadow {
     position: absolute;
     top: 0;
     left: 0;
@@ -422,11 +422,11 @@ h2 {
     padding: 100px 30px 0;
 }
 
-.nude .swiper-slide:hover .shadow {
+.nude .slide:hover .shadow {
     display: block;
 }
 
-.nude .swiper-slide img {
+.nude .slide img {
     /*border-top-left-radius: 30px;*/
     /*border-bottom-right-radius: 30px;*/
     border-radius: 30px;
