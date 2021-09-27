@@ -1,3 +1,8 @@
+html {
+  padding:0px;
+  margin:0px;
+}
+
 body {
   padding:0px;
   margin:0px;
@@ -27,11 +32,16 @@ h2 {
   padding-top: 5%;
 }
 
+.maincountainer{
+  width:100vw;
+}
 
 .change {
-  margin:auto;
+  margin: 0px;
+  width: 100%;
   text-align: center;
-  display:block;
+  display:flex;
+  flex-direction:column;
   border: 2px transparent;
   padding: .5em;
 }
@@ -39,7 +49,7 @@ h2 {
 .change img {
   width:500;
   height:350;
-  margin:50px 0px;
+  margin:25px 0px;
   vertical-align: middle;
 }
 
@@ -55,7 +65,6 @@ h2 {
 }
 
 .description {
-  margin-top: -3%;
   font-size: 15px;
   color: white;
   /*visibility: hidden;*/
@@ -67,21 +76,16 @@ h2 {
   opacity: 10;
 }*/
 
-.img1{
-  float:left;
-  padding-left: 3%;
-  margin-left: 1%;
+.changerows {
+  width:100%;
+  display:flex;
+  justify-content: space-around;
 }
 
 .img1 img{
     border-radius: 10px;
 }
 
-.img3{
-  float:left;
-  padding-left: 10%;
-  margin-left: 10%;
-}
 
 .img3 img{
     border-radius: 10px;
@@ -91,9 +95,9 @@ h2 {
 .nude {
     border: 2px transparent;
     padding: .5em;
-    margin: auto;
+    margin: 0px;
     display:block;
-    margin-top:10%;
+    width:100%;
 }
 
 .nude h2 {
@@ -101,10 +105,14 @@ h2 {
 }
 
 .container {
-  display:block;
   margin-top:10%;
-  width: 1140px;
-  margin: auto;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
 }
 /*.nude .container {
     width: 100%;
@@ -115,21 +123,9 @@ h2 {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    margin-top:3%;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+    margin-top:5%;
+    width:80%;
+    background-color: transparent;
 }
 
 /*.nude ul {*/
@@ -168,6 +164,7 @@ h2 {
     /*border-top-left-radius: 30px;*/
     /*border-bottom-right-radius: 30px;*/
     border-radius: 30px;
+    width:100%;
 }
 
 .video {
