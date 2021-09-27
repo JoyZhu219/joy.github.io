@@ -28,7 +28,7 @@ h2 {
 }
 
 /*learned from https://codepen.io/coreyroth/pen/eeyvMw */
-.video {
+/*.video {
   position: relative;
   padding-top: 4.1%;
   padding-left:10%;
@@ -320,7 +320,7 @@ h2 {
       opacity: 1;
     }
   }
-}
+} */
 
 .change {
   text-align: center;
