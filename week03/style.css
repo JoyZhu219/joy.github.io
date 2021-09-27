@@ -134,6 +134,10 @@ h2 {
     border-radius: 30px;
 }
 
+.video {
+  text-align: center;
+}
+
 iframe {
   border:solid transparent;
   border-radius: 10px;
