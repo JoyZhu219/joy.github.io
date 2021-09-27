@@ -59,11 +59,20 @@ h2 {
   margin-left: 1%;
 }
 
+.img1 img{
+    border-radius: 10px;
+}
+
 .img3{
   float:left;
   padding-left: 10%;
   margin-left: 10%;
 }
+
+.img3 img{
+    border-radius: 10px;
+}
+
 
 .nude {
     width: 1140px;
