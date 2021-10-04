@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
 body {
   background-color: #add8e6;
   margin:0;
@@ -12,11 +14,22 @@ body {
   align-items: center;
 }
 
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Grand Hotel', cursive;
+}
+
+.portrait {
+  margin:10px;
+  top:10%;
+}
+
 .hair {
   background: black;
   position: absolute;
   transform: translateY(-5%);
-  top: 15%;
+  top: 25%;
   width: 200px;
   left: 43%;
   height: 350px;
@@ -53,7 +66,7 @@ body {
   border-radius:50%;
   position: absolute;
   left:43%;
-  top: 10%;
+  top: 20%;
 }
 
 .face {
