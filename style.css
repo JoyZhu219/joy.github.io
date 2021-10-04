@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  margin:0;
+  padding:0;
+  background: #FFFF66;
+  background: linear-gradient(#ADD8E6,#EDCDC2);
+  height:100vh;
+}
+
+.topnav {
+  font-family: 'Montserrat', sans-serif;
+  position:absolute;
+  padding:0;
+  margin:0;
+  top:-2px;
+  width:100vw;
+  background-color: #EDCDC2;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  margin-left: 3px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  color: #E6E6FA;
+}
+
+.topnav a.active {
+  background-color: #E6E6FA;
+  color: black;
+}
+
+.title {
+  position:relative;
+  top:0px;
+  font-family:"Sofia", sans-serif;
+  font-size:70px;
+}
+
+.content {
+  position:absolute;
+  width:100vw;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content a {
+  color:#DDA0DD;
+}
+
+.content a:hover,
+.content a:hover {
+  color: #FFFF66;
+  opacity: .4;
+}
+
+.assignment1 {
+  position:relative;
+  top:10px;
+}
+
+.assignment2 {
+  position:relative;
+  top:40px;
+}
+
+.assignment3 {
+  position:relative;
+  top:70px;
+}
+
+.assignment4 {
+  position:relative;
+  top:100px;
+}
