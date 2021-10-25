@@ -57,8 +57,11 @@ maincontainer {
   font-size:1.2rem;
   margin-top: 20rem;
   margin-right: 6rem;
-  bottom: 0;
+  height:100%;
   line-height: 1.6;
+  display:flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .box2 {
