@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  margin:0;
+  padding:0;
+  width:100vw;
+  font-family: 'Raleway', sans-serif;
+}
+
+maincontainer {
+  grid-template-columns: 65% 35%;
+}
+
+.box1 {
+  /*height: 70vh;*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("asset/1.jpeg");
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-left: 40px;
+  margin-top:40px;
+  color: white;
+
+}
+
+.reading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
+  /*margin-left: 20px;*/
+  margin-right: 60px;
+  margin-top: 80px;
+  color: white;
+  line-height: 1.4;
+
+}
+
+.change {
+    color: #FFA500;
+    display:inline;
+    text-shadow: 2px 2px #FFFFE0;
+}
+
+
+.box1 {
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: 20% 30% 50%;
+}
+
+.cite {
+  font-family: 'Raleway', sans-serif;
+  display: table-cell;
+  vertical-align: bottom;
+  color: white;
+  font-size:1.2rem;
+  margin-top: 20rem;
+  margin-right: 6rem;
+  bottom: 0;
+  line-height: 1.6;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.commentbox {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 50px;
+  width:40%;
+}
+
+.comment {
+  font-size: 1.2rem;
+  color: black;
+  line-height: 1.4;
+  text align: justify;
+  margin-top:20px;
+}
+
+.far {
+  color: #FFA500;
+  text-align: center;
+}
+
+.fas {
+  color: #FFA500;
+  text-align: center;
+}
