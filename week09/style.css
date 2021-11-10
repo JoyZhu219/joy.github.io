@@ -160,6 +160,10 @@ html {
   color: white;
 }
 
+.fab:hover {
+  transform: scale(1.06);
+}
+
 #profile {
   width: 60vw;
   margin: 0px;
@@ -213,6 +217,10 @@ html {
 .albumcover {
   height: 100%;
   weight: 100%;
+}
+
+.albumcover:hover {
+  transform: scale(1.1);
 }
 
 .albumcontent {
@@ -353,6 +361,7 @@ ul li a span img {
   height:20vh;
   width: 20vw;
 }
+
 
 .name {
   font-family: 'Nothing You Could Do', cursive;
@@ -586,7 +595,7 @@ iframe {
       flex-direction: column;
       align-items: center;
     }
-    
+
     #leftside{
       width: initial;
     }
