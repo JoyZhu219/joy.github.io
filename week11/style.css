@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.maincontainer {
+  height: 100%;
+  width: 50vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  /*padding-top: 20px;*/
+}
+
+.left {
+  left: 0;
+  top: 50%;
+  left: 10%;
+}
+
+.right {
+  right: 0;
+  top: 0;
+}
+
+.boyfriend {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boyfriendtext {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+.boyfriendimg {
+  width: 70%;
+  height: 100%;
+  left:0;
+}
+
+img {
+  padding: 0 !important;
+  margin-top: 20% !important;
+
+  transform: scale(0.75);
+  /*width: ;
+  height: 100%;*/
+}
