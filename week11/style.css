@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Teko&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.mainContainer {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background-color: black;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+.homecontainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.homecontainer img {
+  width: 90%;
+  height: 95%;
+  border-radius: 15px;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+/*
+.titlecontainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+*/
+
+.title {
+  position: absolute;
+  font-size: 5rem;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  margin-top: -27%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.makeChoice {
+  position: absolute;
+  font-family: 'Jost', sans-serif;
+  /*display: flex;
+  justify-content: space-between;*/
+}
+
+label {
+  color: white;
+  /*position: absolute;*/
+  z-index: 1;
+  /*margin-left: -70%;*/
+  /*margin-top: -10%;*/
+  font-size: 1.5rem;
+}
+
+
+#list {
+  /*position: absolute;*/
+  font-family: 'Jost', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+#go {
+  /*position: absolute;
+  margin-left: 20%;*/
+  position: absolute;
+  font-family: 'Jost', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 10%;
+}
+
+#go:hover {
+  transform: scale(1.05);
+}
+
+#responseOne {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+/*
+.oneContainer {
+  height: 100vh;
+  width: 100vw;
+}
+*/
+
+.quotation {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 2rem;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#responseTwo {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+/*
+.twoContainer {
+  height: 100vh;
+  width: 100vw;
+}
+*/
+
+span {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+span.fade {
+  opacity: 1;
+}
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer img {
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+  object-fit: cover;
+}
