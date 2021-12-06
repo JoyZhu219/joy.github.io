@@ -7,13 +7,55 @@
     <link rel="stylesheet" href="https://use.typekit.net/wyo7amo.css">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body id="home">
     <div class="maincontainer">
+      <div class="hometitle">
+        <svg id="vectorEye" viewbox="0 0 2000 2000" xmlns="http://www.w3.org/2000/svg" fill="black">
 
+        <polygon class="sight" points="0 500 1000 500 2000 2000 0 2000" />
 
+        <clipPath id="lids">
+          <path id="lids-path" stroke-linejoin="round" stroke-linecap="round" d="M 0 500 Q 500 0 1000 500 Q 500 1000 0 500" />
+        </clipPath>
 
+        <g clip-path="url(#lids)">
+          <rect class="whites" width="1000" height="1000" fill="#fff" />
+          <g class="iris-group">
+            <circle class="iris" cx="500" cy="500" r="150" fill="#000" />
+            <circle class="pupil" cx="500" cy="500" r="75" fill="#fff" />
+          </g>
+        </g>
+        <use href="#lids-path" class="lids" stroke="#000" stroke-width="2" />
+      </svg>
 
+      <div class="title">
+        <h1>BIG</h1>
+        <h1>BROTHER</h1>
+        <h1>IS WATCH-</h1>
+        <h1>ING</h1>
+      </div>
     </div>
+
+    <div class="menu">
+      <img src="assets/menuicon.png" class="logo">
+      <div class="pagenames">
+        <a href="index.html" class="activelink"><h2>HOME</h2></a>
+        <a href="law.html"><h2>GLOBAL SURVEILLANCE LAW COMPARISON</h2></a>
+        <a href="privacy.html"><h2>SURVEILLANCE UNDER COVID-19</h2></a>
+        <a href="tools.html"><h2>TOOLS</h2></a>
+      </div>
+    </div>
+
+    <div class="intro">
+      As technology develops, electronic devices have become more and more essential in people’s life.
+      They do not only provide convenience and efficiency to the users but also help government surveillance on citizens to thrive. Different countries are not
+      using different approaches to monitor people and invade their privacy.
+    </div>
+
+
+
+  </div>
+  <script src="eyemovement.js" defer></script>
 
   </body>
 </html>
