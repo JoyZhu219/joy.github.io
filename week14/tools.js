@@ -3,6 +3,9 @@ let eyeballbackground = document.getElementById('eyeballbackground');
 let eyebackground = document.getElementsByClassName('eyebackground')[0];
 let eyeballcontainer = document.getElementsByClassName('eyeballcontainer')[0];
 
+let menuicon = document.getElementsByClassName('logo')[0];
+let menucontent = document.getElementsByClassName('pagenames')[0];
+
 //Eyeball Movement
 window.addEventListener('DOMContentLoaded', (event) => {
 
@@ -25,6 +28,29 @@ window.addEventListener('DOMContentLoaded', (event) => {
   });
 
 });
+
+//Show and Hide Menu
+window.addEventListener('DOMContentLoaded', (event) => {
+  console.log(menucontent);
+  menuicon.addEventListener('click', showmenu);
+
+});
+
+var menuHide = true;
+var menuShow = false;
+function showmenu() {
+  if (menuHide) {
+    console.log("opening menu...");
+    menucontent.classList.add('showMenu');
+    menuHide = false;
+    menuShow = true;
+  } else if (menuShow) {
+    console.log("closing menu...");
+    menucontent.classList.remove('showMenu');
+    menuHide = true;
+    menuShow = false;
+  }
+}
 
 //Tools Gallery
 let toolselement = document.getElementById("content");
