@@ -86,7 +86,7 @@ function showmenu() {
       this.setAttribute("src", "assets/eyeopen.png")
       document.querySelector("#box3").style.display = "block";
     } else {
-      this.setAttribute("src", "assets/eyeopen.png")
+      this.setAttribute("src", "assets/eyeclosed.png")
       document.querySelector("#box3").style.display = "none";
     }
   })
