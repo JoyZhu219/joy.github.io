@@ -355,8 +355,7 @@ body {
   transform: scale(1.1);
 }
 
-
-.box {
+#law .box {
   display: flex;
   flex-direction: column;
   width: 1000px;
@@ -364,7 +363,8 @@ body {
   /* border: 1px solid green; */
   display: none;
 }
-.box .first{
+
+#law .box .first{
   display: flex;
   justify-content: space-between;
   width: 1000px;
@@ -372,28 +372,31 @@ body {
   /* border: 1px solid #333; */
 }
 
-.box .first .a {
+#law .box .first .a {
   width: 250px;
   height: 57px;
   line-height: 57px;
   border-top: 1px solid white;
   color: white;
 }
-.box .first .b {
+
+#law .box .first .b {
   width: 215px;
   height: 57px;
   line-height: 57px;
   border-top: 1px solid white;
   color: white;
 }
-.box .second {
+
+#law .box .second {
   display: flex;
   flex-direction: column;
   width: 1000px;
   height: 340px;
   /* border: 1px solid green; */
 }
-.box .c {
+
+#law .box .c {
   display: flex;
   width: 1000px;
   height: 50px;
@@ -401,28 +404,36 @@ body {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
-.box .c div {
+
+#law .box .c div {
   color:white;
 
 }
-.box .c .one {
+
+#law .box .c .one {
   margin-left: 210px;
 }
-.box .c .two {
+
+#law .box .c .two {
   margin-left: 450px;
 }
-.box .c .g {
+
+#law .box .c .g {
   margin-left: 171px;
 }
-.box .c .h {
+
+#law .box .c .h {
   margin-left: 224px;
 }
-.box .c .s {
+
+#law .box .c .s {
   margin-left: 163px;
 }
-.box .c .t {
+
+#law .box .c .t {
   margin-left: 84px;
 }
+
 #law .logo:hover {
   transition: all .2s ease-in-out;
   transform: scale(1.1);
