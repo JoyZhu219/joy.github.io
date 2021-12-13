@@ -3,9 +3,6 @@ let eyeballbackground = document.getElementById('eyeballbackground');
 let eyebackground = document.getElementsByClassName('eyebackground')[0];
 let eyeballcontainer = document.getElementsByClassName('eyeballcontainer')[0];
 
-let menuicon = document.getElementsByClassName('logo')[0];
-let menucontent = document.getElementsByClassName('pagenames')[0];
-
 //Eyeball Movement
 window.addEventListener('DOMContentLoaded', (event) => {
 
@@ -28,81 +25,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
   });
 
 });
-
-//Show and Hide Menu
-window.addEventListener('DOMContentLoaded', (event) => {
-  console.log(menucontent);
-  menuicon.addEventListener('click', showmenu);
-
-});
-
-var menuHide = true;
-var menuShow = false;
-function showmenu() {
-  if (menuHide) {
-    console.log("opening menu...");
-    menucontent.classList.add('showMenu');
-    menuHide = false;
-    menuShow = true;
-  } else if (menuShow) {
-    console.log("closing menu...");
-    menucontent.classList.remove('showMenu');
-    menuHide = true;
-    menuShow = false;
-  }
-}
-
-//Show and Hide Data
-// document.querySelectorAll(".status").forEach((ele) => {
-  var a = document.querySelector("#a");
-  a.addEventListener("click", function () {
-    var data = this.getAttribute("src");
-    console.log(data === "assets/eyeclosed.png");
-    if (data == "assets/eyeclosed.png") {
-      this.setAttribute("src", "assets/eyeopen.png")
-      document.querySelector("#box1").style.display = "block";
-    } else {
-      this.setAttribute("src", "assets/eyeclosed.png")
-      document.querySelector("#box1").style.display = "none";
-    }
-  })
-  var b = document.querySelector("#b");
-  b.addEventListener("click", function () {
-    var data = this.getAttribute("src");
-    console.log(data === "assets/eyeopen.png");
-    if (data == "assets/eyeclosed.png") {
-      this.setAttribute("src", "assets/eyeopen.png")
-      document.querySelector("#box2").style.display = "block";
-    } else {
-      this.setAttribute("src", "assets/eyeclosed.png")
-      document.querySelector("#box2").style.display = "none";
-    }
-  })
-  var c = document.querySelector("#c");
-  c.addEventListener("click", function () {
-    var data = this.getAttribute("src");
-    console.log(data === "assets/eyeopen.png");
-    if (data == "assets/eyeclosed.png") {
-      this.setAttribute("src", "assets/eyeopen.png")
-      document.querySelector("#box3").style.display = "block";
-    } else {
-      this.setAttribute("src", "assets/eyeopen.png")
-      document.querySelector("#box3").style.display = "none";
-    }
-  })
-  var d = document.querySelector("#d");
-  d.addEventListener("click", function () {
-    var data = this.getAttribute("src");
-    console.log(data === "assets/eyeopen.png");
-    if (data == "assets/eyeclosed.png") {
-      this.setAttribute("src", "assets/eyeopen.png")
-      document.querySelector("#box4").style.display = "block";
-    } else {
-      this.setAttribute("src", "assets/eyeclosed.png")
-      document.querySelector("#box4").style.display = "none";
-    }
-  })
-// })
 
 //Tools Gallery
 let toolselement = document.getElementById("content");
